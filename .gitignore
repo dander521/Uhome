@@ -1,0 +1,8 @@
+
+*.xcuserstate
+
+Uhome.xcodeproj/xcuserdata/dander.xcuserdatad/xcschemes/xcschememanagement.plist
+
+*.xcscheme
+
+Pods/Pods.xcodeproj/xcuserdata/dander.xcuserdatad/xcschemes/xcschememanagement.plist

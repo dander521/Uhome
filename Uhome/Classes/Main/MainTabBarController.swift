@@ -18,6 +18,7 @@ class MainTabBarController: UITabBarController {
         
         self.setChildViewControllers()
         
+        print("good good study")
     }
     
     func setChildViewControllers() {
