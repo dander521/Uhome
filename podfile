@@ -1,0 +1,12 @@
+
+  platform :ios, ‘8.0’
+  use_frameworks!
+    target ‘Uhome’do
+  pod 'SDWebImage', '~> 3.7’
+  pod 'Alamofire', '~> 4.4'
+  pod 'Masonry', '~> 1.0.2'
+  pod 'MBProgressHUD', '~> 0.9.2'
+  pod 'MJExtension', '~> 3.0.13'
+
+
+    end
