@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		270FDBF01ED5A3D90047D162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270FDBEF1ED5A3D90047D162 /* Assets.xcassets */; };
-		270FDC3A1ED5AC580047D162 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 270FDC2B1ED5AC580047D162 /* Info.plist */; };
 		270FDC3B1ED5AC580047D162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270FDC2E1ED5AC580047D162 /* AppDelegate.swift */; };
 		270FDC3C1ED5AC580047D162 /* ApiBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270FDC331ED5AC580047D162 /* ApiBaseManager.swift */; };
 		270FDC3D1ED5AC580047D162 /* ApiManagerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270FDC351ED5AC580047D162 /* ApiManagerProvider.swift */; };
 		270FDC3E1ED5AC580047D162 /* ApiProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270FDC361ED5AC580047D162 /* ApiProxy.swift */; };
+		270FDC401ED5B68D0047D162 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270FDC3F1ED5B68D0047D162 /* MainNavigationController.swift */; };
+		270FDC421ED5B6A30047D162 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270FDC411ED5B6A30047D162 /* MainTabBarController.swift */; };
+		270FDC461ED5C15B0047D162 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270FDC451ED5C15B0047D162 /* UIColorExtension.swift */; };
 		9AC4FA5DC6DD567E73279AD1 /* Pods_Uhome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBC743EA3ACACD4F56D92FA /* Pods_Uhome.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +26,9 @@
 		270FDC331ED5AC580047D162 /* ApiBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiBaseManager.swift; sourceTree = "<group>"; };
 		270FDC351ED5AC580047D162 /* ApiManagerProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManagerProvider.swift; sourceTree = "<group>"; };
 		270FDC361ED5AC580047D162 /* ApiProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiProxy.swift; sourceTree = "<group>"; };
+		270FDC3F1ED5B68D0047D162 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		270FDC411ED5B6A30047D162 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		270FDC451ED5C15B0047D162 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		2EBC743EA3ACACD4F56D92FA /* Pods_Uhome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Uhome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EAE32DB7E39B2B341742954 /* Pods-Uhome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uhome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Uhome/Pods-Uhome.debug.xcconfig"; sourceTree = "<group>"; };
 		A589C9805FA661C5170E5833 /* Pods-Uhome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uhome.release.xcconfig"; path = "Pods/Target Support Files/Pods-Uhome/Pods-Uhome.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +103,8 @@
 		270FDC231ED5AC580047D162 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				270FDC3F1ED5B68D0047D162 /* MainNavigationController.swift */,
+				270FDC411ED5B6A30047D162 /* MainTabBarController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -183,6 +190,7 @@
 		270FDC2F1ED5AC580047D162 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				270FDC451ED5C15B0047D162 /* UIColorExtension.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -320,7 +328,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				270FDC3A1ED5AC580047D162 /* Info.plist in Resources */,
 				270FDBF01ED5A3D90047D162 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,7 +387,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270FDC401ED5B68D0047D162 /* MainNavigationController.swift in Sources */,
+				270FDC461ED5C15B0047D162 /* UIColorExtension.swift in Sources */,
 				270FDC3D1ED5AC580047D162 /* ApiManagerProvider.swift in Sources */,
+				270FDC421ED5B6A30047D162 /* MainTabBarController.swift in Sources */,
 				270FDC3E1ED5AC580047D162 /* ApiProxy.swift in Sources */,
 				270FDC3B1ED5AC580047D162 /* AppDelegate.swift in Sources */,
 				270FDC3C1ED5AC580047D162 /* ApiBaseManager.swift in Sources */,
@@ -486,8 +496,10 @@
 			baseConfigurationReference = 7EAE32DB7E39B2B341742954 /* Pods-Uhome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = FFJM4LT582;
 				INFOPLIST_FILE = "Uhome/Classes/Supporting Files/Plist/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.menhao.www.Uhome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,8 +512,10 @@
 			baseConfigurationReference = A589C9805FA661C5170E5833 /* Pods-Uhome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = FFJM4LT582;
 				INFOPLIST_FILE = "Uhome/Classes/Supporting Files/Plist/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.menhao.www.Uhome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
