@@ -92,7 +92,7 @@ class ApiProxy {
         guard urlResponse.result.error == nil else {
             //deal with failure for request
             
-            failedCallBack(urlResponse.result.error as! NSError, requestId)
+            failedCallBack(urlResponse.result.error! as NSError, requestId)
             return
         }
         
