@@ -13,6 +13,8 @@ class FirstViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // 添加导航栏左侧按钮
+        self.addLeftBarButtonItem()
         // 添加导航栏右侧按钮
         self.addRightBarButtonItem()
     }
@@ -23,7 +25,7 @@ class FirstViewController: BaseViewController {
     
     //MARK: - Custom Method
     func addRightBarButtonItem() {
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(image: UIImage.init(named: "ic_tab_information_default"), style: UIBarButtonItemStyle.done, target: self, action: #selector(FirstViewController.touchRightBarButtonItem))
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(image: UIImage.init(named: "ic_tab_information_selected"), style: UIBarButtonItemStyle.done, target: self, action: #selector(FirstViewController.touchRightBarButtonItem))
     }
     
     func touchRightBarButtonItem() {
@@ -40,5 +42,15 @@ class FirstViewController: BaseViewController {
             print(str ?? "二维码扫描失败")
             self.dismiss(animated: true, completion: nil)
         }
+    }
+    
+    func addLeftBarButtonItem() {
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem.init(image: UIImage.init(named: "ic_tab_stores_selected"), style: UIBarButtonItemStyle.done, target: self, action: #selector(FirstViewController.touchLeftBarButtonItem))
+    }
+    
+    func touchLeftBarButtonItem() {
+        let bmpVC = BMPViewController()
+        bmpVC.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(bmpVC, animated: true)
     }
 }

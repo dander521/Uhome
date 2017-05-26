@@ -54,6 +54,8 @@
 		F17DCA0F1ED80772002B0F7F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17DCA0E1ED80772002B0F7F /* FirstViewController.swift */; };
 		F17DCA111ED80790002B0F7F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17DCA101ED80790002B0F7F /* SecondViewController.swift */; };
 		F17DCA131ED80798002B0F7F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17DCA121ED80798002B0F7F /* ThirdViewController.swift */; };
+		F17DCA161ED82373002B0F7F /* BMPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17DCA151ED82373002B0F7F /* BMPViewController.swift */; };
+		F17DCA1A1ED83073002B0F7F /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F17DCA191ED83073002B0F7F /* mapapi.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -121,6 +123,8 @@
 		F17DCA101ED80790002B0F7F /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F17DCA121ED80798002B0F7F /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		F17DCA141ED8147E002B0F7F /* UhomePrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UhomePrefixHeader.pch; sourceTree = "<group>"; };
+		F17DCA151ED82373002B0F7F /* BMPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMPViewController.swift; sourceTree = "<group>"; };
+		F17DCA191ED83073002B0F7F /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,6 +348,7 @@
 		F17DC99F1ED7F62A002B0F7F /* BaiduMapAPI */ = {
 			isa = PBXGroup;
 			children = (
+				F17DCA181ED83073002B0F7F /* Resources */,
 				F17DC9A01ED7F62A002B0F7F /* BaiduMapAPI_Base.framework */,
 				F17DC9A11ED7F62A002B0F7F /* BaiduMapAPI_Cloud.framework */,
 				F17DC9A21ED7F62A002B0F7F /* BaiduMapAPI_Location.framework */,
@@ -446,6 +451,7 @@
 			isa = PBXGroup;
 			children = (
 				F17DCA0E1ED80772002B0F7F /* FirstViewController.swift */,
+				F17DCA151ED82373002B0F7F /* BMPViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -528,6 +534,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		F17DCA181ED83073002B0F7F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F17DCA191ED83073002B0F7F /* mapapi.bundle */,
+			);
+			name = Resources;
+			path = BaiduMapAPI_Map.framework/Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -565,6 +580,11 @@
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 228VX6E96K;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -597,6 +617,7 @@
 				270FDBF01ED5A3D90047D162 /* Assets.xcassets in Resources */,
 				F17DC9F01ED802EA002B0F7F /* qr_light_off.png in Resources */,
 				F17DC9F11ED802EA002B0F7F /* qr_light_on.png in Resources */,
+				F17DCA1A1ED83073002B0F7F /* mapapi.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,6 +694,7 @@
 				F17DC9DE1ED7FEAA002B0F7F /* BabyRhythm.m in Sources */,
 				F17DCA0F1ED80772002B0F7F /* FirstViewController.swift in Sources */,
 				F17DC9DF1ED7FEAA002B0F7F /* BabySpeaker.m in Sources */,
+				F17DCA161ED82373002B0F7F /* BMPViewController.swift in Sources */,
 				F17DC9DC1ED7FEAA002B0F7F /* BabyOptions.m in Sources */,
 				F17DCA111ED80790002B0F7F /* SecondViewController.swift in Sources */,
 				F17DC9E01ED7FEAA002B0F7F /* BabyToy.m in Sources */,
