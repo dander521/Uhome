@@ -28,5 +28,9 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
+	<key>CFBundleDisplayName</key>
+	<string>Uhome</string>
 </dict>
 </plist>
