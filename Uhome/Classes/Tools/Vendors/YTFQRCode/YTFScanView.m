@@ -44,24 +44,20 @@
 }
 - (void)animation
 {
-    
-    self.showSize = (CGSizeEqualToSize(self.showSize, CGSizeZero)) ? CGSizeMake( 200, 200) : self.showSize;
-    
-//    CGFloat startY = ;
-    
+    self.showSize = (CGSizeEqualToSize(self.showSize, CGSizeZero)) ? CGSizeMake(200, 200) : self.showSize;
+
     [UIView animateWithDuration:2.9 delay:0 options:UIViewAnimationOptionCurveLinear animations:^{
 
-       self.lineView .frame = CGRectMake((self.frame.size.width - self.showSize.width) / 2, self.center.y + (self.showSize.height)/2 - 50.0, self.showSize.width, 2);
+       self.lineView.frame = CGRectMake((self.frame.size.width - self.showSize.width)/2, self.center.y + (self.showSize.height)/2 - 50.0, self.showSize.width, 2);
         
     } completion:^(BOOL finished) {
-       self.lineView .frame = CGRectMake((self.frame.size.width - self.showSize.width) / 2, self.center.y - (self.showSize.height)/2 + 50.0, self.showSize.width, 2);
+       self.lineView.frame = CGRectMake((self.frame.size.width - self.showSize.width)/2, self.center.y - (self.showSize.height)/2 - 50.0, self.showSize.width, 2);
     }];
 }
 - (void)drawRect:(CGRect)rect{
     self.cornerWidth = 15;
     
     self.showSize = (CGSizeEqualToSize(self.showSize, CGSizeZero)) ? CGSizeMake( 200, 200) : self.showSize;
-    
     
     //中间清空的矩形框
     CGRect clearDrawRect = CGRectMake(rect.size.width / 2 - self.showSize.width / 2,
