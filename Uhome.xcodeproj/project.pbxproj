@@ -79,7 +79,7 @@
 				270FDC211ED5AC580047D162 /* Base */,
 				270FDC221ED5AC580047D162 /* DataBase */,
 				270FDC231ED5AC580047D162 /* Main */,
-				270FDC241ED5AC580047D162 /* Mudle */,
+				270FDC241ED5AC580047D162 /* Model */,
 				270FDC281ED5AC580047D162 /* Supporting Files */,
 				270FDC2C1ED5AC580047D162 /* Tools */,
 			);
@@ -109,13 +109,14 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		270FDC241ED5AC580047D162 /* Mudle */ = {
+		270FDC241ED5AC580047D162 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				270FDC251ED5AC580047D162 /* Model */,
 				270FDC261ED5AC580047D162 /* View */,
 				270FDC271ED5AC580047D162 /* ViewController */,
 			);
+			name = Model;
 			path = Mudle;
 			sourceTree = "<group>";
 		};
