@@ -35,7 +35,9 @@
     return AVCaptureSessionPreset640x480;
 }
 
-
+- (void)dealloc {
+    NSLog(@"--------dealloc-------");
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
