@@ -213,8 +213,8 @@
 		270FDC321ED5AC580047D162 /* NetWorking */ = {
 			isa = PBXGroup;
 			children = (
-				270FDC331ED5AC580047D162 /* ApiBaseManager.swift */,
 				270FDC341ED5AC580047D162 /* ApiManager */,
+				270FDC331ED5AC580047D162 /* ApiBaseManager.swift */,
 				270FDC351ED5AC580047D162 /* ApiManagerProvider.swift */,
 				270FDC361ED5AC580047D162 /* ApiProxy.swift */,
 			);
@@ -301,7 +301,7 @@
 				TargetAttributes = {
 					270FDBE41ED5A3D90047D162 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = FFJM4LT582;
+						DevelopmentTeam = 228VX6E96K;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -348,7 +348,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		978A1FB6665598B5A3427A5C /* [CP] Embed Pods Frameworks */ = {
@@ -499,7 +499,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = FFJM4LT582;
+				DEVELOPMENT_TEAM = 228VX6E96K;
 				INFOPLIST_FILE = "Uhome/Classes/Supporting Files/Plist/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -516,7 +516,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = FFJM4LT582;
+				DEVELOPMENT_TEAM = 228VX6E96K;
 				INFOPLIST_FILE = "Uhome/Classes/Supporting Files/Plist/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
