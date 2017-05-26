@@ -10,12 +10,10 @@ import UIKit
 
 class MainTabBarController: UITabBarController {
     
-//MARK: - life cycle
-    
+    //MARK: - life cycle
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        
         self.setChildViewControllers()
     }
     
@@ -24,16 +22,11 @@ class MainTabBarController: UITabBarController {
         let arrTitle = ["1","2","3"]
         
         for i in 0 ..< arrTitle.count {
-            
-                        let vc =  UIViewController()
-            
-                        vc.title = arrTitle[i]
-            
-                        vc.view.backgroundColor = UIColor.randomColor
-            
-                        let vc1 = MainNavigationController(rootViewController:vc)
-                        
-                       self.addChildViewController(vc1)
+            let vc =  UIViewController()
+            vc.title = arrTitle[i]
+            vc.view.backgroundColor = UIColor.randomColor
+            let vc1 = MainNavigationController(rootViewController:vc)
+            self.addChildViewController(vc1)
         }
     }
 }

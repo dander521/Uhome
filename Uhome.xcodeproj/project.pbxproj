@@ -34,6 +34,22 @@
 		F17DC9C01ED7F6E0002B0F7F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17DC9BF1ED7F6E0002B0F7F /* CoreTelephony.framework */; };
 		F17DC9C21ED7F6EB002B0F7F /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F17DC9C11ED7F6EB002B0F7F /* libstdc++.6.0.9.tbd */; };
 		F17DC9C41ED7F6F3002B0F7F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17DC9C31ED7F6F3002B0F7F /* CoreLocation.framework */; };
+		F17DC9D81ED7FEAA002B0F7F /* BabyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = F17DC9C71ED7FEAA002B0F7F /* BabyBluetooth.m */; };
+		F17DC9D91ED7FEAA002B0F7F /* BabyCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = F17DC9C91ED7FEAA002B0F7F /* BabyCallback.m */; };
+		F17DC9DA1ED7FEAA002B0F7F /* BabyCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F17DC9CB1ED7FEAA002B0F7F /* BabyCentralManager.m */; };
+		F17DC9DB1ED7FEAA002B0F7F /* BabyDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = F17DC9CD1ED7FEAA002B0F7F /* BabyDefine.m */; };
+		F17DC9DC1ED7FEAA002B0F7F /* BabyOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = F17DC9CF1ED7FEAA002B0F7F /* BabyOptions.m */; };
+		F17DC9DD1ED7FEAA002B0F7F /* BabyPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F17DC9D11ED7FEAA002B0F7F /* BabyPeripheralManager.m */; };
+		F17DC9DE1ED7FEAA002B0F7F /* BabyRhythm.m in Sources */ = {isa = PBXBuildFile; fileRef = F17DC9D31ED7FEAA002B0F7F /* BabyRhythm.m */; };
+		F17DC9DF1ED7FEAA002B0F7F /* BabySpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F17DC9D51ED7FEAA002B0F7F /* BabySpeaker.m */; };
+		F17DC9E01ED7FEAA002B0F7F /* BabyToy.m in Sources */ = {isa = PBXBuildFile; fileRef = F17DC9D71ED7FEAA002B0F7F /* BabyToy.m */; };
+		F17DC9E61ED80138002B0F7F /* YTFScanToolController.m in Sources */ = {isa = PBXBuildFile; fileRef = F17DC9E31ED80138002B0F7F /* YTFScanToolController.m */; };
+		F17DC9E71ED80138002B0F7F /* YTFScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = F17DC9E51ED80138002B0F7F /* YTFScanView.m */; };
+		F17DC9EE1ED802EA002B0F7F /* qr_album.png in Resources */ = {isa = PBXBuildFile; fileRef = F17DC9E91ED802EA002B0F7F /* qr_album.png */; };
+		F17DC9EF1ED802EA002B0F7F /* qr_back.png in Resources */ = {isa = PBXBuildFile; fileRef = F17DC9EA1ED802EA002B0F7F /* qr_back.png */; };
+		F17DC9F01ED802EA002B0F7F /* qr_light_off.png in Resources */ = {isa = PBXBuildFile; fileRef = F17DC9EB1ED802EA002B0F7F /* qr_light_off.png */; };
+		F17DC9F11ED802EA002B0F7F /* qr_light_on.png in Resources */ = {isa = PBXBuildFile; fileRef = F17DC9EC1ED802EA002B0F7F /* qr_light_on.png */; };
+		F17DC9F21ED802EA002B0F7F /* qr_line.png in Resources */ = {isa = PBXBuildFile; fileRef = F17DC9ED1ED802EA002B0F7F /* qr_line.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +85,33 @@
 		F17DC9BF1ED7F6E0002B0F7F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		F17DC9C11ED7F6EB002B0F7F /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		F17DC9C31ED7F6F3002B0F7F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F17DC9C61ED7FEAA002B0F7F /* BabyBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyBluetooth.h; sourceTree = "<group>"; };
+		F17DC9C71ED7FEAA002B0F7F /* BabyBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyBluetooth.m; sourceTree = "<group>"; };
+		F17DC9C81ED7FEAA002B0F7F /* BabyCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCallback.h; sourceTree = "<group>"; };
+		F17DC9C91ED7FEAA002B0F7F /* BabyCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCallback.m; sourceTree = "<group>"; };
+		F17DC9CA1ED7FEAA002B0F7F /* BabyCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCentralManager.h; sourceTree = "<group>"; };
+		F17DC9CB1ED7FEAA002B0F7F /* BabyCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCentralManager.m; sourceTree = "<group>"; };
+		F17DC9CC1ED7FEAA002B0F7F /* BabyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyDefine.h; sourceTree = "<group>"; };
+		F17DC9CD1ED7FEAA002B0F7F /* BabyDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyDefine.m; sourceTree = "<group>"; };
+		F17DC9CE1ED7FEAA002B0F7F /* BabyOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyOptions.h; sourceTree = "<group>"; };
+		F17DC9CF1ED7FEAA002B0F7F /* BabyOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyOptions.m; sourceTree = "<group>"; };
+		F17DC9D01ED7FEAA002B0F7F /* BabyPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyPeripheralManager.h; sourceTree = "<group>"; };
+		F17DC9D11ED7FEAA002B0F7F /* BabyPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyPeripheralManager.m; sourceTree = "<group>"; };
+		F17DC9D21ED7FEAA002B0F7F /* BabyRhythm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyRhythm.h; sourceTree = "<group>"; };
+		F17DC9D31ED7FEAA002B0F7F /* BabyRhythm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyRhythm.m; sourceTree = "<group>"; };
+		F17DC9D41ED7FEAA002B0F7F /* BabySpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabySpeaker.h; sourceTree = "<group>"; };
+		F17DC9D51ED7FEAA002B0F7F /* BabySpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabySpeaker.m; sourceTree = "<group>"; };
+		F17DC9D61ED7FEAA002B0F7F /* BabyToy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyToy.h; sourceTree = "<group>"; };
+		F17DC9D71ED7FEAA002B0F7F /* BabyToy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyToy.m; sourceTree = "<group>"; };
+		F17DC9E21ED80138002B0F7F /* YTFScanToolController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTFScanToolController.h; sourceTree = "<group>"; };
+		F17DC9E31ED80138002B0F7F /* YTFScanToolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTFScanToolController.m; sourceTree = "<group>"; };
+		F17DC9E41ED80138002B0F7F /* YTFScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTFScanView.h; sourceTree = "<group>"; };
+		F17DC9E51ED80138002B0F7F /* YTFScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTFScanView.m; sourceTree = "<group>"; };
+		F17DC9E91ED802EA002B0F7F /* qr_album.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qr_album.png; sourceTree = "<group>"; };
+		F17DC9EA1ED802EA002B0F7F /* qr_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qr_back.png; sourceTree = "<group>"; };
+		F17DC9EB1ED802EA002B0F7F /* qr_light_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qr_light_off.png; sourceTree = "<group>"; };
+		F17DC9EC1ED802EA002B0F7F /* qr_light_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qr_light_on.png; sourceTree = "<group>"; };
+		F17DC9ED1ED802EA002B0F7F /* qr_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qr_line.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +177,7 @@
 				270FDC211ED5AC580047D162 /* Base */,
 				270FDC221ED5AC580047D162 /* DataBase */,
 				270FDC231ED5AC580047D162 /* Main */,
-				270FDC241ED5AC580047D162 /* Model */,
+				270FDC241ED5AC580047D162 /* Module */,
 				270FDC281ED5AC580047D162 /* Supporting Files */,
 				270FDC2C1ED5AC580047D162 /* Tools */,
 			);
@@ -164,14 +207,14 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		270FDC241ED5AC580047D162 /* Model */ = {
+		270FDC241ED5AC580047D162 /* Module */ = {
 			isa = PBXGroup;
 			children = (
 				270FDC251ED5AC580047D162 /* Model */,
 				270FDC261ED5AC580047D162 /* View */,
 				270FDC271ED5AC580047D162 /* ViewController */,
 			);
-			name = Model;
+			name = Module;
 			path = Mudle;
 			sourceTree = "<group>";
 		};
@@ -199,17 +242,10 @@
 		270FDC281ED5AC580047D162 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				270FDC291ED5AC580047D162 /* Image */,
+				F17DC9E81ED8029C002B0F7F /* Image */,
 				270FDC2A1ED5AC580047D162 /* Plist */,
 			);
 			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		270FDC291ED5AC580047D162 /* Image */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Image;
 			sourceTree = "<group>";
 		};
 		270FDC2A1ED5AC580047D162 /* Plist */ = {
@@ -327,6 +363,8 @@
 		F17DC99E1ED7F60D002B0F7F /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				F17DC9E11ED80138002B0F7F /* QRCode */,
+				F17DC9C51ED7FEAA002B0F7F /* BabyBluetooth */,
 				F17DC99F1ED7F62A002B0F7F /* BaiduMapAPI */,
 			);
 			path = Vendors;
@@ -354,6 +392,55 @@
 				F17DC9A91ED7F62A002B0F7F /* libssl.a */,
 			);
 			path = thirdlibs;
+			sourceTree = "<group>";
+		};
+		F17DC9C51ED7FEAA002B0F7F /* BabyBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				F17DC9C61ED7FEAA002B0F7F /* BabyBluetooth.h */,
+				F17DC9C71ED7FEAA002B0F7F /* BabyBluetooth.m */,
+				F17DC9C81ED7FEAA002B0F7F /* BabyCallback.h */,
+				F17DC9C91ED7FEAA002B0F7F /* BabyCallback.m */,
+				F17DC9CA1ED7FEAA002B0F7F /* BabyCentralManager.h */,
+				F17DC9CB1ED7FEAA002B0F7F /* BabyCentralManager.m */,
+				F17DC9CC1ED7FEAA002B0F7F /* BabyDefine.h */,
+				F17DC9CD1ED7FEAA002B0F7F /* BabyDefine.m */,
+				F17DC9CE1ED7FEAA002B0F7F /* BabyOptions.h */,
+				F17DC9CF1ED7FEAA002B0F7F /* BabyOptions.m */,
+				F17DC9D01ED7FEAA002B0F7F /* BabyPeripheralManager.h */,
+				F17DC9D11ED7FEAA002B0F7F /* BabyPeripheralManager.m */,
+				F17DC9D21ED7FEAA002B0F7F /* BabyRhythm.h */,
+				F17DC9D31ED7FEAA002B0F7F /* BabyRhythm.m */,
+				F17DC9D41ED7FEAA002B0F7F /* BabySpeaker.h */,
+				F17DC9D51ED7FEAA002B0F7F /* BabySpeaker.m */,
+				F17DC9D61ED7FEAA002B0F7F /* BabyToy.h */,
+				F17DC9D71ED7FEAA002B0F7F /* BabyToy.m */,
+			);
+			path = BabyBluetooth;
+			sourceTree = "<group>";
+		};
+		F17DC9E11ED80138002B0F7F /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				F17DC9E21ED80138002B0F7F /* YTFScanToolController.h */,
+				F17DC9E31ED80138002B0F7F /* YTFScanToolController.m */,
+				F17DC9E41ED80138002B0F7F /* YTFScanView.h */,
+				F17DC9E51ED80138002B0F7F /* YTFScanView.m */,
+			);
+			name = QRCode;
+			path = YTFQRCode;
+			sourceTree = "<group>";
+		};
+		F17DC9E81ED8029C002B0F7F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				F17DC9E91ED802EA002B0F7F /* qr_album.png */,
+				F17DC9EA1ED802EA002B0F7F /* qr_back.png */,
+				F17DC9EB1ED802EA002B0F7F /* qr_light_off.png */,
+				F17DC9EC1ED802EA002B0F7F /* qr_light_on.png */,
+				F17DC9ED1ED802EA002B0F7F /* qr_line.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,7 +506,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17DC9EE1ED802EA002B0F7F /* qr_album.png in Resources */,
+				F17DC9EF1ED802EA002B0F7F /* qr_back.png in Resources */,
+				F17DC9F21ED802EA002B0F7F /* qr_line.png in Resources */,
 				270FDBF01ED5A3D90047D162 /* Assets.xcassets in Resources */,
+				F17DC9F01ED802EA002B0F7F /* qr_light_off.png in Resources */,
+				F17DC9F11ED802EA002B0F7F /* qr_light_on.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,12 +571,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				270FDC401ED5B68D0047D162 /* MainNavigationController.swift in Sources */,
+				F17DC9D91ED7FEAA002B0F7F /* BabyCallback.m in Sources */,
+				F17DC9DB1ED7FEAA002B0F7F /* BabyDefine.m in Sources */,
 				270FDC461ED5C15B0047D162 /* UIColorExtension.swift in Sources */,
 				270FDC3D1ED5AC580047D162 /* ApiManagerProvider.swift in Sources */,
 				270FDC421ED5B6A30047D162 /* MainTabBarController.swift in Sources */,
 				270FDC3E1ED5AC580047D162 /* ApiProxy.swift in Sources */,
+				F17DC9DD1ED7FEAA002B0F7F /* BabyPeripheralManager.m in Sources */,
 				270FDC3B1ED5AC580047D162 /* AppDelegate.swift in Sources */,
+				F17DC9D81ED7FEAA002B0F7F /* BabyBluetooth.m in Sources */,
 				270FDC3C1ED5AC580047D162 /* ApiBaseManager.swift in Sources */,
+				F17DC9E71ED80138002B0F7F /* YTFScanView.m in Sources */,
+				F17DC9E61ED80138002B0F7F /* YTFScanToolController.m in Sources */,
+				F17DC9DE1ED7FEAA002B0F7F /* BabyRhythm.m in Sources */,
+				F17DC9DF1ED7FEAA002B0F7F /* BabySpeaker.m in Sources */,
+				F17DC9DC1ED7FEAA002B0F7F /* BabyOptions.m in Sources */,
+				F17DC9E01ED7FEAA002B0F7F /* BabyToy.m in Sources */,
+				F17DC9DA1ED7FEAA002B0F7F /* BabyCentralManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

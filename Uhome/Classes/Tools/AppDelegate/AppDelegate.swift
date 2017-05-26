@@ -11,16 +11,19 @@ import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, BMKGeneralDelegate {
-
+    
+    //MARK: - Variables
     var window: UIWindow?
     var _mapManager: BMKMapManager?
 
+    //MARK: - System Method
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
         self.window = UIWindow(frame: UIScreen.main.bounds)
         let mainTabBarController = MainTabBarController()
         self.window?.rootViewController = mainTabBarController
         self.window?.makeKeyAndVisible()
+        
         // 添加百度地图
         self.configBMKSetting()
         // 添加键盘输入屏幕适配
