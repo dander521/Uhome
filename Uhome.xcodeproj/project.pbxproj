@@ -32,6 +32,7 @@
 		2EBC743EA3ACACD4F56D92FA /* Pods_Uhome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Uhome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EAE32DB7E39B2B341742954 /* Pods-Uhome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uhome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Uhome/Pods-Uhome.debug.xcconfig"; sourceTree = "<group>"; };
 		A589C9805FA661C5170E5833 /* Pods-Uhome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uhome.release.xcconfig"; path = "Pods/Target Support Files/Pods-Uhome/Pods-Uhome.release.xcconfig"; sourceTree = "<group>"; };
+		F17DC9721ED7EB83002B0F7F /* Uhome_Header_Bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Uhome_Header_Bridging.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,8 +171,8 @@
 			children = (
 				270FDC2D1ED5AC580047D162 /* AppDelegate */,
 				270FDC2F1ED5AC580047D162 /* Categories */,
-				270FDC301ED5AC580047D162 /* Config */,
 				270FDC311ED5AC580047D162 /* CustomTools */,
+				F17DC96E1ED7E7EC002B0F7F /* Config */,
 				270FDC321ED5AC580047D162 /* NetWorking */,
 				270FDC371ED5AC580047D162 /* Others */,
 				270FDC381ED5AC580047D162 /* Utils */,
@@ -194,13 +195,6 @@
 				270FDC451ED5C15B0047D162 /* UIColorExtension.swift */,
 			);
 			path = Categories;
-			sourceTree = "<group>";
-		};
-		270FDC301ED5AC580047D162 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Config;
 			sourceTree = "<group>";
 		};
 		270FDC311ED5AC580047D162 /* CustomTools */ = {
@@ -264,6 +258,14 @@
 				A589C9805FA661C5170E5833 /* Pods-Uhome.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F17DC96E1ED7E7EC002B0F7F /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F17DC9721ED7EB83002B0F7F /* Uhome_Header_Bridging.h */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,7 +507,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.menhao.www.Uhome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Uhome/Classes/Tools/Config/Uhome_Header_Bridging.h";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -522,7 +526,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.menhao.www.Uhome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Uhome/Classes/Tools/Config/Uhome_Header_Bridging.h";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
