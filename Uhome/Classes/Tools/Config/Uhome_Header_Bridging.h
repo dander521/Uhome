@@ -30,4 +30,7 @@
 //MARK: - Bluetooth
 #import "BabyBluetooth.h"
 
+//MARK: - NewFeatures
+#import "TailorxLeadingViewController.h"
+
 #endif /* Uhome_Header_Bridging_h */

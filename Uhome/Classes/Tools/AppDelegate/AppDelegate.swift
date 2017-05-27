@@ -20,8 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, BMKGeneralDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        let mainTabBarController = MainTabBarController()
-        self.window?.rootViewController = mainTabBarController
+        // 配置根视图
+        self.configRootViewController()
         self.window?.makeKeyAndVisible()
         
         // 添加百度地图
@@ -56,6 +56,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate, BMKGeneralDelegate {
     func configKeyboardInputType() {
         IQKeyboardManager.sharedManager().enable = true
         IQKeyboardManager.sharedManager().shouldResignOnTouchOutside = true
+    }
+    
+    //MARK: - Config RootViewController
+    func configRootViewController() {
+        let mainTabBarController = MainTabBarController()
+        let leadingVC = TailorxLeadingViewController()
+        
+        // 获取版本号
+        let currenVersion: String = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as! String
+        let lastVersion = UserDefaults.standard.object(forKey: "CFBundleShortVersionString")
+        if lastVersion != nil && currenVersion == lastVersion as! String {
+            self.window?.rootViewController = mainTabBarController
+        } else {
+            self.window?.rootViewController = leadingVC
+            leadingVC.rootViewController = mainTabBarController
+            let userDefault = UserDefaults.standard
+            userDefault.set(currenVersion, forKey: "CFBundleShortVersionString")
+            userDefault.synchronize()
+        }
     }
     
     //MARK: - BMKConfig
